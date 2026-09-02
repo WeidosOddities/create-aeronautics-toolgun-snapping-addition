@@ -4,20 +4,20 @@ A NeoForge 1.21.1 utility addon for building and handling Sable/Create Aeronauti
 
 ## Features
 
-- Save and print multi-sublevel vehicles.
-- Move, rotate, weld, delete, and change collision between physical structures.
-- Survival and creative magnetic guns.
-- Portable printers and reusable or single-use vehicle containers.
-- Preservation of supported constraints, contraptions, wires, ropes, and block-entity data.
+A. Save and print multi-sublevel vehicles.  
+B. Move, rotate, weld, delete, and change collision between physical structures.  
+C. Survival and creative magnetic guns.  
+D. Portable printers and reusable or single-use vehicle containers.  
+E. Preservation of supported constraints, contraptions, wires, ropes, and block-entity data.  
 
 ## Requirements
 
-- Java 21
-- Minecraft 1.21.1
-- NeoForge 21.1.228 or newer
-- Create 6.0.10
-- Sable 1.1.3–2.x
-- Create Aeronautics 1.1.3–1.x
+A. Java 21  
+B. Minecraft 1.21.1  
+C. NeoForge 21.1.228 or newer  
+D. Create 6.0.10  
+E. Sable 1.1.3–2.x  
+F. Create Aeronautics 1.1.3–1.x  
 
 The current development target is Sable 2.0.3 and Create Aeronautics 1.3.0.
 
