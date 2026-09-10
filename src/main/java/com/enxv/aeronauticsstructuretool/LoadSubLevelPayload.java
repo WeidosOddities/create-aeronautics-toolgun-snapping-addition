@@ -18,7 +18,7 @@ public record LoadSubLevelPayload(
         double hitX,
         double hitY,
         double hitZ,
-        int rotationDegrees,
+        double rotationDegrees,
         int scalePercent,
         int offsetX,
         int offsetY,
@@ -39,7 +39,7 @@ public record LoadSubLevelPayload(
                 ByteBufCodecs.DOUBLE.encode(buffer, payload.hitX());
                 ByteBufCodecs.DOUBLE.encode(buffer, payload.hitY());
                 ByteBufCodecs.DOUBLE.encode(buffer, payload.hitZ());
-                ByteBufCodecs.INT.encode(buffer, payload.rotationDegrees());
+                ByteBufCodecs.DOUBLE.encode(buffer, payload.rotationDegrees());
                 ByteBufCodecs.INT.encode(buffer, payload.scalePercent());
                 ByteBufCodecs.INT.encode(buffer, payload.offsetX());
                 ByteBufCodecs.INT.encode(buffer, payload.offsetY());
