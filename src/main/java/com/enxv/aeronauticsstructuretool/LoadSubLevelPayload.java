@@ -58,7 +58,7 @@ public record LoadSubLevelPayload(
                     ByteBufCodecs.DOUBLE.decode(buffer),
                     ByteBufCodecs.DOUBLE.decode(buffer),
                     ByteBufCodecs.DOUBLE.decode(buffer),
-                    ByteBufCodecs.INT.decode(buffer),
+                    ByteBufCodecs.DOUBLE.decode(buffer),
                     ByteBufCodecs.INT.decode(buffer),
                     ByteBufCodecs.INT.decode(buffer),
                     ByteBufCodecs.INT.decode(buffer),
